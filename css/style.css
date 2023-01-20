@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Digital;
+    src: url(../font/DS-DIGIB.TTF);
+}
+
+:root{
+    --colorfondo: #232323;
+    --colormarco: #535353;
+    --colorclaro: #bdbdbd;
+}
+
+*{
+    background-image: url("../images/bg.svg");
+    padding: 0;
+    margin: 0;
+    left: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.containerWatch{
+    border: 5px solid var(--colormarco);
+    border-radius: 25px;
+    width: 150vh;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 15px 15px 9px var(--colorclaro);
+    background-color: var(--colormarco);
+}
+
+.watch{
+    background: var(--colormarco);
+    font-size: 30vh;
+    color: var(--colorclaro);
+    font-family: 'Digital';
+}
